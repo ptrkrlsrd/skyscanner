@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sky"
+version = "0.1.0"
+description = ""
+authors = ["Petter Karlsrud <petterkarlsrud@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.4"
+torch = "^1.12.1"
+numpy = "efficientnet_pytorch"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
